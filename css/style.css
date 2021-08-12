@@ -1,0 +1,132 @@
+/* LAYOUT */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.capa{
+    height: 350px;
+    float: initial;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+
+
+/* CALCULO DO TAMANHO DA PRANCHA */
+#container-tamanho{
+    margin-top: 5px;
+    height: 60%;
+    width: 100%;
+    background: url(../img/surf.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#tamanho{
+    margin-top: 90px;
+    margin-left: 45%;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    
+}
+#peso{
+    margin-top: 130px;
+    margin-left: 45%;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    
+}
+#botao{
+   position: absolute;
+   top: 60%;
+   left: 45%;
+    
+    
+}
+#resultado{
+    height: 25%;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+/* Noticias*/
+
+#principal{ 
+    height: 53%;
+    width: 100%;   
+}
+
+#text1{
+    margin-left: .50%;
+    height: 400px;
+    width: 600px;
+
+}
+
+#img1{
+    margin-left: .50%;
+    height: 400px;
+    width: 600px;
+    background: url(../img/car.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#img1:hover{
+    background: url(../img/cinco.jpg);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+
+#titulo, p{
+    text-align: initial;
+
+}
+
+p{
+    margin-top: -31%;
+}
+
+.titulo-prancha{
+
+    color: black;
+    
+}
+
+#secundario{
+    border: solid 1px red;
+    width: 50%;
+    height: 50%;
+}
+
+#q1,#q2,#q3{
+    border: solid 1px red;
+    margin-right: 10%;
+    width: 50%;
+}
+
